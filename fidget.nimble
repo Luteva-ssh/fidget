@@ -5,7 +5,8 @@ author        = "Andre von Houck"
 description   = "Fidget - UI Library"
 license       = "MIT"
 srcDir        = "src"
-
+bin           = @["fidget"]
+binDir        = "bin"
 # Dependencies
 
 requires "nim >= 1.4.0"
